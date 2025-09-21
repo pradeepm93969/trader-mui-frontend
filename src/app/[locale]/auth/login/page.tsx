@@ -34,7 +34,7 @@ const LoginPage = () => {
       {/* Header */}
       <CardHeader
         title={
-          <Typography variant="h5" align="center">
+          <Typography variant="h5" align="center" fontWeight="bold">
             {t("auth.login-header")}
           </Typography>
         }

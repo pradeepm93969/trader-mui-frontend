@@ -100,6 +100,7 @@ const LoginForm = () => {
               fullWidth
               error={!!errors.username}
               helperText={errors.username?.message}
+              spellCheck={false}
               slotProps={{
                 input: {
                   startAdornment: (

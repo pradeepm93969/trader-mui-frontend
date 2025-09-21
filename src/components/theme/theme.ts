@@ -42,9 +42,6 @@ export const darkTheme = createTheme({
     },
     MuiCardHeader: {
       styleOverrides: {
-        title: {
-          fontWeight: 600, // bold header
-        },
         subheader: {
           marginTop: 8, // space between title & subheader
         },
@@ -69,21 +66,6 @@ export const darkTheme = createTheme({
       styleOverrides: {
         root: {
           background: "transparent", // ensures DialogTitle matches Paper
-        },
-      },
-    },
-    MuiTextField: {
-      styleOverrides: {
-        root: {
-          // override autofill background color
-          "& input:-webkit-autofill": {
-            WebkitBoxShadow: "0 0 0px 1000px #121212 inset",
-            WebkitTextFillColor: "#E5E7EB", // light gray text
-          },
-          "& textarea:-webkit-autofill": {
-            WebkitBoxShadow: "0 0 0px 1000px #121212 inset",
-            WebkitTextFillColor: "#E5E7EB",
-          },
         },
       },
     },
@@ -194,7 +176,7 @@ export const lightTheme = createTheme({
     MuiCardHeader: {
       styleOverrides: {
         title: {
-          fontWeight: 600, // bold header
+          fontWeight: "bold", // bold header
         },
         subheader: {
           marginTop: 8, // space between title & subheader
