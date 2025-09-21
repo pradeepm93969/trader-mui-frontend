@@ -1,0 +1,18 @@
+{
+  "greeting": "Hello",
+  "header": {
+    "language-selection": {
+      "title": "Language",
+      "selection": "Select Language..."
+    }
+  },
+  "auth": {
+    "login": {
+      "header": "Login",
+      "sub-header": "Welcome back",
+      "username": "Username",
+      "password": "password",
+      "submit": "Login"
+    }
+  }
+}

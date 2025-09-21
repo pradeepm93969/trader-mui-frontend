@@ -1,0 +1,9 @@
+{
+  "greeting": "Bonjour",
+  "header": {
+    "language-selection": {
+      "title": "Langue",
+      "selection": "Sélectionner la langue..."
+    }
+  }
+}
